@@ -18,7 +18,15 @@
   <link rel="stylesheet" href="assets/css/style.css" id="main-style-link">
   <link rel="stylesheet" href="assets/css/style-preset.css">
   <link rel="stylesheet" href="assets/css/landing.css">
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.col-md-6.col-xl-4 img');
+    images.forEach(img => {
+      img.setAttribute("loading", "lazy");
+    });
+  });
+</script>
+  
   <style>
     @media (max-width: 575.98px) {
       .page-header {
@@ -747,6 +755,16 @@
         }
       }
     </script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.col-md-6.col-xl-4 img');
+    images.forEach(img => {
+      img.setAttribute("loading", "lazy");
+    });
+  });
+  </script>
+  
 
 </body>
 
