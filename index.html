@@ -27,31 +27,31 @@
   });
 </script>
   
-  <style>
-    @media (max-width: 575.98px) {
-      .page-header {
-        padding: 15px 0px !important;
-      }
-    }
+<style>
+@media (max-width: 575.98px) {
+.page-header {
+padding: 15px 0px !important;
+}
+}
 
-    @media (max-width: 1024px) {
-      .page-header {
-        position: relative;
-        left: 0;
-        top: 0;
-        margin-left: 0px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-      }
-    } 
+@media (max-width: 1024px) {
+.page-header {
+position: relative;
+left: 0;
+top: 0;
+margin-left: 0px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+} 
 
-    @media (min-width: 767px) {
-      .custom-height {
-        height: 350px;
-        object-fit: cover;
-      }
-    }
-  </style>
+@media (min-width: 767px) {
+.custom-height {
+height: 350px;
+object-fit: cover;
+}
+}
+</style>
 </head>
 
 <body data-pc-preset="preset-1" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme_contrast=""
@@ -73,12 +73,15 @@
             <li class="nav-item px-1"><a class="nav-link" href="#about">Tentang</a></li>
             <li class="nav-item px-1"><a class="nav-link" href="#education">Pendidikan</a></li>
             <li class="nav-item px-1"><a class="nav-link" href="#projects">Proyek Website</a></li>
-            <li class="nav-item px-1"><a class="nav-link" href="#pictures">Gambar</a></li>
+            <li class="nav-item px-1"><a class="nav-link" href="galeri.html">Gambar</a></li>
             <li class="nav-item">
-              <a class="btn mb-2 mx-1 btn-primary" target="_blank" href="https://www.linkedin.com/in/zlhm/">Linkedin</a>
+              <a class="btn mb-2 mx-1 btn-primary d-md-none" target="_blank" href="https://www.linkedin.com/in/zlhm/">Linkedin</a>
             </li>
             <li class="nav-item">
-              <a class="btn mb-2 mx-1 btn-primary" target="_blank" href="https://instagram.com/zlhm.a">Instagram</a>
+              <a href="https://scholar.google.com/citations?user=Yi8U9n4AAAAJ&hl=id" target="_blank" class="btn btn-primary d-md-none mb-2">Scholar</a >
+            </li>
+            <li class="nav-item">
+              <a class="btn mb-2 mx-1 btn-primary d-md-none" target="_blank" href="https://instagram.com/zlhm.a">Instagram</a>
             </li>
           </ul>
         </div>
@@ -126,40 +129,29 @@
       <div class="col-sm-12">
 
         <div class="card social-profile">
-          <video class="embed-responsive-item w-100 mb-4 card-img-top" autoplay muted loop>
-            <source src="assets/images/gallery/vidio-1.webm" type="video/webm">
-            Browser atau perangkat anda tidak mendukung
-          </video>
+          <img src="assets/images/b.webp" alt="" class="w-100 card-img-top">
           <div class="card-body pt-0">
             <div class="row align-items-end">
-
               <div class="col-md-auto text-md-start">
-                <img class="img-fluid img-profile-avtar" src="assets/images/profile.jpg" alt="User image" />
+                <img class="img-fluid img-profile-avtar" src="assets/images/profile.jpg" alt="User image">
               </div>
-
               <div class="col">
-                <div class="row  justify-content-between align-items-end">
-
+                <div class="row justify-content-between align-items-end">
                   <div class="col-md-auto soc-profile-data">
                     <h5 class="mb-1">Zulham Abidin</h5>
-                    <p class="mb-0 mb-1">Mahasiswa</p>
+                    <p class="mb-0">Pelajar</p>
                   </div>
-
-                  <div id="about"></div>
-
                   <div class="col-md-auto">
-                    <a href="https://www.linkedin.com/in/zlhm/" target="_blank"
-                      class=" mx-1 btn btn-primary me-3">Linkedin</a>
-                    <a href="https://www.instagram.com/zlhm.a" target="_blank"
-                      class=" mx-1 btn btn-outline-secondary">Instagram</a>
+                    <a href="https://www.linkedin.com/in/zlhm/" class="btn btn-outline-secondary me-3">Linkedin</a >
+                    <a href="https://www.instagram.com/zlhm.a" class="btn btn-primary me-3">Instagram</a >
+                    <a href="https://scholar.google.com/citations?user=Yi8U9n4AAAAJ&hl=id" class="btn btn-outline-secondary">Scholar</a >
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+       
         <div class="row">
 
           <!-- tentang -->
@@ -369,288 +361,6 @@
                   </li>
 
                 </ul>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- gallery -->
-          <div class="col-lg-12 col-xxl-3">
-            <div class="card">
-
-              <div class="card-header d-flex align-items-center justify-content-between">
-                <h5>Gambar</h5>
-              </div>
-
-              <div class="card-body">
-
-                <div class="row g-2">
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/ppg1.webp">
-                      <img src="assets/images/gallery/ppg1.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                  <a class="img-post card" data-lightbox="assets/images/gallery/ppg-001.svg">
-                    <img src="assets/images/gallery/ppg-001.svg" alt="img" class="card-img custom-height" />
-                    <div class="card-img-overlay">
-                      <i class="ti ti-eye"></i>
-                    </div>
-                  </a>
-                </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-22.jpg">
-                      <img src="assets/images/gallery/card-picture-22.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/b.webp">
-                      <img src="assets/images/b.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/c.webp">
-                      <img src="assets/images/gallery/c.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-1.webp">
-                      <img src="assets/images/gallery/card-picture-1.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-2.webp">
-                      <img src="assets/images/gallery/card-picture-2.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-3.jpg">
-                      <img src="assets/images/gallery/card-picture-3.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-4.jpg">
-                      <img src="assets/images/gallery/card-picture-4.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-5.jpeg">
-                      <img src="assets/images/gallery/card-picture-5.jpeg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-6.jpg">
-                      <img src="assets/images/gallery/card-picture-6.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-7.webp">
-                      <img src="assets/images/gallery/card-picture-7.webp" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-8.jpg">
-                      <img src="assets/images/gallery/card-picture-8.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-9.jpeg">
-                      <img src="assets/images/gallery/card-picture-9.jpeg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-10.jpg">
-                      <img src="assets/images/gallery/card-picture-10.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-11.jpg">
-                      <img src="assets/images/gallery/card-picture-11.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-12.webp">
-                      <img src="assets/images/gallery/card-picture-12.webp" alt="img"
-                        class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-13.jpg">
-                      <img src="assets/images/gallery/card-picture-13.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-14.jpg">
-                      <img src="assets/images/gallery/card-picture-14.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-15.jpg">
-                      <img src="assets/images/gallery/card-picture-15.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-16.jpg">
-                      <img src="assets/images/gallery/card-picture-16.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-25.jpg">
-                      <img src="assets/images/gallery/card-picture-25.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-17.jpg">
-                      <img src="assets/images/gallery/card-picture-17.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-18.jpg">
-                      <img src="assets/images/gallery/card-picture-18.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-19.jpg">
-                      <img src="assets/images/gallery/card-picture-19.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-20.jpeg">
-                      <img src="assets/images/gallery/card-picture-20.jpeg" alt="img"
-                        class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-21.jpg">
-                      <img src="assets/images/gallery/card-picture-21.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-23.jpg">
-                      <img src="assets/images/gallery/card-picture-23.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-6 col-xl-4">
-                    <a class="img-post card" data-lightbox="assets/images/gallery/card-picture-24.jpg">
-                      <img src="assets/images/gallery/card-picture-24.jpg" alt="img" class="card-img custom-height" />
-                      <div class="card-img-overlay">
-                        <i class="ti ti-eye"></i>
-                      </div>
-                    </a>
-                  </div>
-
-                </div>
-
               </div>
 
             </div>
